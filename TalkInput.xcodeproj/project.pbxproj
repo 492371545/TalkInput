@@ -14,13 +14,14 @@
 		F364CCF219F5EFD8007BA903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CCF119F5EFD8007BA903 /* main.m */; };
 		F364CCF619F5EFD8007BA903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CCF519F5EFD8007BA903 /* AppDelegate.m */; };
 		F364CCF919F5EFD8007BA903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F364CCF719F5EFD8007BA903 /* Main.storyboard */; };
-		F364CCFC19F5EFD8007BA903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CCFB19F5EFD8007BA903 /* ViewController.m */; };
 		F364CCFE19F5EFD8007BA903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F364CCFD19F5EFD8007BA903 /* Images.xcassets */; };
 		F364CD0519F5EFD8007BA903 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CD0419F5EFD8007BA903 /* XCTest.framework */; };
 		F364CD0619F5EFD8007BA903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CCE519F5EFD8007BA903 /* Foundation.framework */; };
 		F364CD0719F5EFD8007BA903 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CCE919F5EFD8007BA903 /* UIKit.framework */; };
 		F364CD0F19F5EFD8007BA903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F364CD0D19F5EFD8007BA903 /* InfoPlist.strings */; };
 		F364CD1119F5EFD8007BA903 /* TalkInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CD1019F5EFD8007BA903 /* TalkInputTests.m */; };
+		F364CD1C19F5F049007BA903 /* TalkInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CD1B19F5F049007BA903 /* TalkInputView.m */; };
+		F364CD1F19F5FC06007BA903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CD1E19F5FC06007BA903 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		F364CCF419F5EFD8007BA903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F364CCF519F5EFD8007BA903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F364CCF819F5EFD8007BA903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F364CCFA19F5EFD8007BA903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F364CCFB19F5EFD8007BA903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F364CCFD19F5EFD8007BA903 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F364CD0319F5EFD8007BA903 /* TalkInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F364CD0419F5EFD8007BA903 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F364CD0C19F5EFD8007BA903 /* TalkInputTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkInputTests-Info.plist"; sourceTree = "<group>"; };
 		F364CD0E19F5EFD8007BA903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F364CD1019F5EFD8007BA903 /* TalkInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkInputTests.m; sourceTree = "<group>"; };
+		F364CD1A19F5F049007BA903 /* TalkInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkInputView.h; sourceTree = "<group>"; };
+		F364CD1B19F5F049007BA903 /* TalkInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkInputView.m; sourceTree = "<group>"; };
+		F364CD1D19F5FC06007BA903 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F364CD1E19F5FC06007BA903 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				F364CCF419F5EFD8007BA903 /* AppDelegate.h */,
 				F364CCF519F5EFD8007BA903 /* AppDelegate.m */,
 				F364CCF719F5EFD8007BA903 /* Main.storyboard */,
-				F364CCFA19F5EFD8007BA903 /* ViewController.h */,
-				F364CCFB19F5EFD8007BA903 /* ViewController.m */,
+				F364CD1D19F5FC06007BA903 /* ViewController.h */,
+				F364CD1E19F5FC06007BA903 /* ViewController.m */,
+				F364CD1A19F5F049007BA903 /* TalkInputView.h */,
+				F364CD1B19F5F049007BA903 /* TalkInputView.m */,
 				F364CCFD19F5EFD8007BA903 /* Images.xcassets */,
 				F364CCEC19F5EFD8007BA903 /* Supporting Files */,
 			);
@@ -249,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F364CCFC19F5EFD8007BA903 /* ViewController.m in Sources */,
+				F364CD1C19F5F049007BA903 /* TalkInputView.m in Sources */,
 				F364CCF619F5EFD8007BA903 /* AppDelegate.m in Sources */,
+				F364CD1F19F5FC06007BA903 /* ViewController.m in Sources */,
 				F364CCF219F5EFD8007BA903 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
