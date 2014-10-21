@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F364CCE619F5EFD8007BA903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CCE519F5EFD8007BA903 /* Foundation.framework */; };
+		F364CCE819F5EFD8007BA903 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CCE719F5EFD8007BA903 /* CoreGraphics.framework */; };
+		F364CCEA19F5EFD8007BA903 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CCE919F5EFD8007BA903 /* UIKit.framework */; };
+		F364CCF019F5EFD8007BA903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F364CCEE19F5EFD8007BA903 /* InfoPlist.strings */; };
+		F364CCF219F5EFD8007BA903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CCF119F5EFD8007BA903 /* main.m */; };
+		F364CCF619F5EFD8007BA903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CCF519F5EFD8007BA903 /* AppDelegate.m */; };
+		F364CCF919F5EFD8007BA903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F364CCF719F5EFD8007BA903 /* Main.storyboard */; };
+		F364CCFC19F5EFD8007BA903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CCFB19F5EFD8007BA903 /* ViewController.m */; };
+		F364CCFE19F5EFD8007BA903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F364CCFD19F5EFD8007BA903 /* Images.xcassets */; };
+		F364CD0519F5EFD8007BA903 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CD0419F5EFD8007BA903 /* XCTest.framework */; };
+		F364CD0619F5EFD8007BA903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CCE519F5EFD8007BA903 /* Foundation.framework */; };
+		F364CD0719F5EFD8007BA903 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F364CCE919F5EFD8007BA903 /* UIKit.framework */; };
+		F364CD0F19F5EFD8007BA903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F364CD0D19F5EFD8007BA903 /* InfoPlist.strings */; };
+		F364CD1119F5EFD8007BA903 /* TalkInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F364CD1019F5EFD8007BA903 /* TalkInputTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F364CD0819F5EFD8007BA903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F364CCDA19F5EFD7007BA903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F364CCE119F5EFD8007BA903;
+			remoteInfo = TalkInput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F364CCE219F5EFD8007BA903 /* TalkInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F364CCE519F5EFD8007BA903 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F364CCE719F5EFD8007BA903 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F364CCE919F5EFD8007BA903 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F364CCED19F5EFD8007BA903 /* TalkInput-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkInput-Info.plist"; sourceTree = "<group>"; };
+		F364CCEF19F5EFD8007BA903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F364CCF119F5EFD8007BA903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F364CCF319F5EFD8007BA903 /* TalkInput-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalkInput-Prefix.pch"; sourceTree = "<group>"; };
+		F364CCF419F5EFD8007BA903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F364CCF519F5EFD8007BA903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F364CCF819F5EFD8007BA903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F364CCFA19F5EFD8007BA903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F364CCFB19F5EFD8007BA903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F364CCFD19F5EFD8007BA903 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F364CD0319F5EFD8007BA903 /* TalkInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F364CD0419F5EFD8007BA903 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F364CD0C19F5EFD8007BA903 /* TalkInputTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkInputTests-Info.plist"; sourceTree = "<group>"; };
+		F364CD0E19F5EFD8007BA903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F364CD1019F5EFD8007BA903 /* TalkInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkInputTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F364CCDF19F5EFD8007BA903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F364CCE819F5EFD8007BA903 /* CoreGraphics.framework in Frameworks */,
+				F364CCEA19F5EFD8007BA903 /* UIKit.framework in Frameworks */,
+				F364CCE619F5EFD8007BA903 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F364CD0019F5EFD8007BA903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F364CD0519F5EFD8007BA903 /* XCTest.framework in Frameworks */,
+				F364CD0719F5EFD8007BA903 /* UIKit.framework in Frameworks */,
+				F364CD0619F5EFD8007BA903 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F364CCD919F5EFD7007BA903 = {
+			isa = PBXGroup;
+			children = (
+				F364CCEB19F5EFD8007BA903 /* TalkInput */,
+				F364CD0A19F5EFD8007BA903 /* TalkInputTests */,
+				F364CCE419F5EFD8007BA903 /* Frameworks */,
+				F364CCE319F5EFD8007BA903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F364CCE319F5EFD8007BA903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F364CCE219F5EFD8007BA903 /* TalkInput.app */,
+				F364CD0319F5EFD8007BA903 /* TalkInputTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F364CCE419F5EFD8007BA903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F364CCE519F5EFD8007BA903 /* Foundation.framework */,
+				F364CCE719F5EFD8007BA903 /* CoreGraphics.framework */,
+				F364CCE919F5EFD8007BA903 /* UIKit.framework */,
+				F364CD0419F5EFD8007BA903 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F364CCEB19F5EFD8007BA903 /* TalkInput */ = {
+			isa = PBXGroup;
+			children = (
+				F364CCF419F5EFD8007BA903 /* AppDelegate.h */,
+				F364CCF519F5EFD8007BA903 /* AppDelegate.m */,
+				F364CCF719F5EFD8007BA903 /* Main.storyboard */,
+				F364CCFA19F5EFD8007BA903 /* ViewController.h */,
+				F364CCFB19F5EFD8007BA903 /* ViewController.m */,
+				F364CCFD19F5EFD8007BA903 /* Images.xcassets */,
+				F364CCEC19F5EFD8007BA903 /* Supporting Files */,
+			);
+			path = TalkInput;
+			sourceTree = "<group>";
+		};
+		F364CCEC19F5EFD8007BA903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F364CCED19F5EFD8007BA903 /* TalkInput-Info.plist */,
+				F364CCEE19F5EFD8007BA903 /* InfoPlist.strings */,
+				F364CCF119F5EFD8007BA903 /* main.m */,
+				F364CCF319F5EFD8007BA903 /* TalkInput-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F364CD0A19F5EFD8007BA903 /* TalkInputTests */ = {
+			isa = PBXGroup;
+			children = (
+				F364CD1019F5EFD8007BA903 /* TalkInputTests.m */,
+				F364CD0B19F5EFD8007BA903 /* Supporting Files */,
+			);
+			path = TalkInputTests;
+			sourceTree = "<group>";
+		};
+		F364CD0B19F5EFD8007BA903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F364CD0C19F5EFD8007BA903 /* TalkInputTests-Info.plist */,
+				F364CD0D19F5EFD8007BA903 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F364CCE119F5EFD8007BA903 /* TalkInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F364CD1419F5EFD8007BA903 /* Build configuration list for PBXNativeTarget "TalkInput" */;
+			buildPhases = (
+				F364CCDE19F5EFD8007BA903 /* Sources */,
+				F364CCDF19F5EFD8007BA903 /* Frameworks */,
+				F364CCE019F5EFD8007BA903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkInput;
+			productName = TalkInput;
+			productReference = F364CCE219F5EFD8007BA903 /* TalkInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F364CD0219F5EFD8007BA903 /* TalkInputTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F364CD1719F5EFD8007BA903 /* Build configuration list for PBXNativeTarget "TalkInputTests" */;
+			buildPhases = (
+				F364CCFF19F5EFD8007BA903 /* Sources */,
+				F364CD0019F5EFD8007BA903 /* Frameworks */,
+				F364CD0119F5EFD8007BA903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F364CD0919F5EFD8007BA903 /* PBXTargetDependency */,
+			);
+			name = TalkInputTests;
+			productName = TalkInputTests;
+			productReference = F364CD0319F5EFD8007BA903 /* TalkInputTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F364CCDA19F5EFD7007BA903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Crystal Xu";
+				TargetAttributes = {
+					F364CD0219F5EFD8007BA903 = {
+						TestTargetID = F364CCE119F5EFD8007BA903;
+					};
+				};
+			};
+			buildConfigurationList = F364CCDD19F5EFD7007BA903 /* Build configuration list for PBXProject "TalkInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F364CCD919F5EFD7007BA903;
+			productRefGroup = F364CCE319F5EFD8007BA903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F364CCE119F5EFD8007BA903 /* TalkInput */,
+				F364CD0219F5EFD8007BA903 /* TalkInputTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F364CCE019F5EFD8007BA903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F364CCFE19F5EFD8007BA903 /* Images.xcassets in Resources */,
+				F364CCF019F5EFD8007BA903 /* InfoPlist.strings in Resources */,
+				F364CCF919F5EFD8007BA903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F364CD0119F5EFD8007BA903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F364CD0F19F5EFD8007BA903 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F364CCDE19F5EFD8007BA903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F364CCFC19F5EFD8007BA903 /* ViewController.m in Sources */,
+				F364CCF619F5EFD8007BA903 /* AppDelegate.m in Sources */,
+				F364CCF219F5EFD8007BA903 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F364CCFF19F5EFD8007BA903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F364CD1119F5EFD8007BA903 /* TalkInputTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F364CD0919F5EFD8007BA903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F364CCE119F5EFD8007BA903 /* TalkInput */;
+			targetProxy = F364CD0819F5EFD8007BA903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F364CCEE19F5EFD8007BA903 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F364CCEF19F5EFD8007BA903 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F364CCF719F5EFD8007BA903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F364CCF819F5EFD8007BA903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F364CD0D19F5EFD8007BA903 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F364CD0E19F5EFD8007BA903 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F364CD1219F5EFD8007BA903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F364CD1319F5EFD8007BA903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F364CD1519F5EFD8007BA903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkInput/TalkInput-Prefix.pch";
+				INFOPLIST_FILE = "TalkInput/TalkInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F364CD1619F5EFD8007BA903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkInput/TalkInput-Prefix.pch";
+				INFOPLIST_FILE = "TalkInput/TalkInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F364CD1819F5EFD8007BA903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkInput.app/TalkInput";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkInput/TalkInput-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TalkInputTests/TalkInputTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F364CD1919F5EFD8007BA903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkInput.app/TalkInput";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkInput/TalkInput-Prefix.pch";
+				INFOPLIST_FILE = "TalkInputTests/TalkInputTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F364CCDD19F5EFD7007BA903 /* Build configuration list for PBXProject "TalkInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F364CD1219F5EFD8007BA903 /* Debug */,
+				F364CD1319F5EFD8007BA903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F364CD1419F5EFD8007BA903 /* Build configuration list for PBXNativeTarget "TalkInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F364CD1519F5EFD8007BA903 /* Debug */,
+				F364CD1619F5EFD8007BA903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F364CD1719F5EFD8007BA903 /* Build configuration list for PBXNativeTarget "TalkInputTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F364CD1819F5EFD8007BA903 /* Debug */,
+				F364CD1919F5EFD8007BA903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F364CCDA19F5EFD7007BA903 /* Project object */;
+}
